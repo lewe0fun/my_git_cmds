@@ -5,14 +5,14 @@ git add README.md
 git add text.txt - Добавить файл в репозиторий  
 git commit -m "first commit"  
 git commit -a -m "Commit description" - Сделать коммит  
-git remote add origin https://github.com/stanruss/название.git 
+git remote add origin https://github.com/stanruss/название.git  
 git push -u origin master  
-
+  
 git rm text.txt - Удалить файл  
 git status - Текущее состояние репозитория (изменения, неразрешенные конфликты и тп)  
-
-
-git log --oneline - посмотреть все коммиты. 
+  
+  
+git log --oneline - посмотреть все коммиты.  
 git checkout . - восстановить все.  
 git checkout "код коммита" - вернуть до состояния этого коммита.  
 git checkout master - вернуться в ветку мастер.  
